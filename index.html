@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Number Guessing Game</title>
+    <meta name="description" content="number guessing game">
+    <meta property="og:title" content="Number Guessing Game">
+    <meta property="og:description" content="number guessing game">
+    <meta property="og:image" content="url to thumbnail image">
+    <meta property="og:url" content="your website url">
+    <link rel="icon" href="favicon-img" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="main_container">
+        <h1>Number Guessing Game</h1>
+        <h2 id="game_mode">Hello!</h2>
+
+        <p id="display">Welcome to my number guessing game which was developed with HTML, CSS and JavaScript. click on
+            the <span>'Start'</span> button below to PLAY.</p>
+
+        <div class="inputnBtn_container">
+            <input type="number" min="1" max="100" id="input">
+            <button type="submit" id="guess_btn" onclick="guess()">Guess</button>
+        </div>
+
+        <div class="startnEnd_btns">
+            <button type="submit" id="startGame_btn" onclick="startGame()">Start</button>
+            <button type="reset" id="endGame_btn" onclick="endGame()">Exit</button>
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
