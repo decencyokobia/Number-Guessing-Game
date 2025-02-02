@@ -33,7 +33,7 @@ function guess(){
         attempts++; 
 
         if(input.value !== rightNumber){
-            display.innerHTML = `${input.value} was a Wrong guess: (The right number was ${rightNumber}).<br>You have ${maxAttempts - attempts} attempts left`;
+            display.innerHTML = `${input.value} was a wrong guess: (The right number was ${rightNumber}).<br>You have ${maxAttempts - attempts} attempts left`;
                     }
 
         if(attempts >= maxAttempts){
