@@ -66,6 +66,7 @@ span {
     background: transparent;
     cursor: pointer;
     display: none;
+    max-width: 300px;
 }
 
 #guess_btn {
@@ -135,11 +136,8 @@ span {
 @media screen and (min-width: 568px) and (max-width: 1250px){
     .main_container{ 
         width: 50vw;
+        margin: auto;
     }
 }
 
-@media screen and (min-width: 1251px) {
-    .main_container{ 
-        width: 40vw;
-    }
-} 
+ 
