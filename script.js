@@ -36,7 +36,7 @@ function guess(){
             display.innerHTML = `${input.value} was a wrong guess: (The right number was ${rightNumber}).<br>You have ${maxAttempts - attempts} attempts left`;
                     }
 
-        if(attempts >= maxAttempts){
+        if(attempts > maxAttempts){
             gameMode.innerText = `Game Over!`;
             display.innerText = `Sorry, you have used all your attempts`;
             input.style.display = `none`;
