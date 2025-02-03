@@ -44,7 +44,3 @@ A fun web-based guessing game built using HTML, CSS, and JavaScript. The objecti
 - **Range of numbers**: You can easily change the range of numbers that the player must guess by adjusting the values in the JavaScript code.
 - **Design**: Modify the CSS to change the appearance of the game, such as colors, fonts, or layout.
 
-## Credits
-
-- Developed by Decency Okobia 
-
